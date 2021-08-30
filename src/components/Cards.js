@@ -1,9 +1,9 @@
 const container = {
   width: "80vw",
   border: "1px solid black",
-  borderRadius:"25px",
-  margin:"5% auto",
-  padding:"1rem"
+  borderRadius: "25px",
+  margin: "5% auto",
+  padding: "1rem",
 };
 
 export default function Card(props) {

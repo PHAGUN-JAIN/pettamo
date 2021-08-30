@@ -9,13 +9,15 @@ export default function Result() {
         >
           Grooming Services near you
         </p>
-        {data.map((val) => {
-          return (
-            <>
-              <Card heading={val.heading} description={val.description} />
-            </>
-          );
-        })}
+        <div style={{ height: "40rem", overflowY:"scroll" }}>
+          {data.map((val) => {
+            return (
+              <>
+                <Card heading={val.heading} description={val.description} />
+              </>
+            );
+          })}
+        </div>
       </div>
     </>
   );
